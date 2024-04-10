@@ -1,0 +1,82 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.icon img {
+    width: 30px;
+    height: auto;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+.main {
+    margin-top: 20px;
+}
+
+.tovar {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#image img {
+    width: 200px;
+    height: auto;
+}
+
+.mainTovar {
+    padding: 20px;
+}
+
+.mainTovar h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.priceTovar {
+    font-size: 18px;
+    color: #f00;
+    margin-bottom: 10px;
+}
+
+.buyTovar {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buyTovar:hover {
+    background-color: #0056b3;
+}

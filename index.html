@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>magazin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="icon"><img src="./asset/mail.png"></img></div>
+            <div class="nav">
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Главная</a>
+                <a href="https://www.dns-shop.ru/">Войти</a>
+                <a href="https://a.orengay.online/">Регистрация</a>
+            </div>
+        </header>
+        <div class="main">
+            <div class="tovar" id="tovar">
+                <div id="image">
+                    <img src="./asset/monitor.jpeg">
+                </div>
+                <div class="mainTovar">
+                    <h1>Монитор с хуем</h1>
+                    <div class="priceTovar">100000000р</div>
+                    <button class="buyTovar">Купить</button>
+                </div>
+            </div>
+        </div> 
+    </div>
+
+    <script>
+        const buyTovar = document.querySelector('.buyTovar');
+
+        buyTovar.addEventListener('click', () => {
+            alert('Вы купили товар!');
+        });
+    </script>
+</body>
+</html>
